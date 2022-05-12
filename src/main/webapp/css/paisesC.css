@@ -1,0 +1,14 @@
+#c-flag{
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+#c-flag:hover + #c-info{
+    display: block;
+}
+#c-flag:hover{
+     transform: scale(1.1);
+}
+#c-info{
+    display: none;
+}
